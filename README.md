@@ -17,7 +17,13 @@
 - Insert an address to test the tokenizer
 - To re-test the program need to re-run the debugging by pressing F5
 
-# 2) Run console program with .bat 
 
-- Download file and put inside new folder
-- Just click AddressTokenizer.bat to run the program via cmd
+# 2) Run console program with .bat (to auto re-run)
+
+- Open CMD and find AddressTokenizer directories
+- Insert javac AddressTokenizer.java to create class
+
+### i) -Test the code
+
+- Just click AddressTokenizer.bat to run the program
+- The program will auto repeat

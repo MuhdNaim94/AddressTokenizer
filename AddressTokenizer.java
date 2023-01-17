@@ -5,7 +5,7 @@ public class AddressTokenizer {
     public static void main(String[] args) {
 
         ApartmentNum apartmentNum = new ApartmentNumExtractor();
-	    Street street = new StreetExtractor();
+	Street street = new StreetExtractor();
         City city = new CityExtractor();
         State state = new StateExtractor();
         Postcode postcode = new PostcodeExtractor();

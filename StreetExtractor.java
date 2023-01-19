@@ -9,6 +9,7 @@ public class StreetExtractor implements Street {
         // Regular expression to match street prefixes and street names
         Pattern p = Pattern.compile(STREET_REGEX, Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(address);
+		
         if (m.find()) {
             return m.group();
         } else {

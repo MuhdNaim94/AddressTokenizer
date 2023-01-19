@@ -27,7 +27,7 @@ public class AddressExtractor {
         .replaceAll(postcodeNum, "").replaceAll(stateName, "").trim();
         section = section.replaceAll("[\\s,]+[\\.]", " ").trim();   
 
-        System.out.println("ApartmentNum : " + aptNum);
+        System.out.println("Apartment : " + aptNum);
         System.out.println("Street : " + streetName);
         System.out.println("City : " + cityName);
         System.out.println("State : " + stateName);
